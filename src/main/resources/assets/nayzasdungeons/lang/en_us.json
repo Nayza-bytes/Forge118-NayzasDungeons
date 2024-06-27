@@ -1,0 +1,16 @@
+{
+  "block.nayzasdungeons.wraithstone": "Wraithstone",
+  "block.nayzasdungeons.smooth_wraithstone": "Smooth Wraithstone",
+  "block.nayzasdungeons.smooth_wraithstone_stairs": "Smooth Wraithstone Stairs",
+  "block.nayzasdungeons.smooth_wraithstone_slabs": "Smooth Wraithstone Slabs",
+  "block.nayzasdungeons.smooth_wraithstone_wall": "Smooth Wraithstone Wall",
+  "block.nayzasdungeons.wraithstone_brick": "Wraithstone Brick",
+  "block.nayzasdungeons.wraithstone_brick_stairs": "Wraithstone Brick Stairs",
+  "block.nayzasdungeons.wraithstone_brick_slabs": "Wraithstone Brick Slabs",
+  "block.nayzasdungeons.chiseled_wraithstone": "Chiseled Wraithstone",
+  "block.nayzasdungeons.wraithstone_tile": "Wraithstone Tile",
+  "block.nayzasdungeons.wraithstone_tile_stairs": "Wraithstone Tile Stairs",
+  "block.nayzasdungeons.wraithstone_tile_slabs": "Wraithstone Tile Slabs",
+
+  "itemGroup.nayzas_dungeons": "Nayza's Dungeons"
+}

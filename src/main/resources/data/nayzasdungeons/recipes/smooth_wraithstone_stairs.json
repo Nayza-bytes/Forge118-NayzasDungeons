@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "##",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "nayzasdungeons:smooth_wraithstone"
+    }
+  },
+  "result": {
+    "item": "nayzasdungeons:smooth_wraithstone_stairs",
+    "count": 4
+  }
+}

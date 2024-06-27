@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "nayzasdungeons:smooth_wraithstone"
+    }
+  },
+  "result": {
+    "item": "nayzasdungeons:smooth_wraithstone_slabs",
+    "count": 3
+  }
+}

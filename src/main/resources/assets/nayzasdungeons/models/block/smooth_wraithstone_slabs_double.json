@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "nayzasdungeons:block/smooth_wraithstone",
+    "side": "nayzasdungeons:block/smooth_wraithstone_slabs_side"
+  }
+}

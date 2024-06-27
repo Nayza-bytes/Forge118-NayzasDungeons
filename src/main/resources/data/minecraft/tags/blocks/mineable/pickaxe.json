@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "nayzasdungeons:wraithstone",
+    "nayzasdungeons:smooth_wraithstone",
+    "nayzasdungeons:wraithstone_brick",
+    "nayzasdungeons:chiseled_wraithstone",
+    "nayzasdungeons:wraithstone_tile",
+    "nayzasdungeons:smooth_wraithstone_stairs",
+    "nayzasdungeons:smooth_wraithstone_slabs",
+    "nayzasdungeons:smooth_wraithstone_wall",
+    "nayzasdungeons:wraithstone_brick_stairs",
+    "nayzasdungeons:wraithstone_brick_slabs",
+    "nayzasdungeons:wraithstone_tile_stairs",
+    "nayzasdungeons:wraithstone_tile_slabs"
+  ]
+}

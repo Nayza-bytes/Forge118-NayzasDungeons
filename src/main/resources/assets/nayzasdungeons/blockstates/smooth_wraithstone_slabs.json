@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nayzasdungeons:block/smooth_wraithstone_slabs"
+    },
+    "type=double": {
+      "model": "nayzasdungeons:block/smooth_wraithstone_slabs_double"
+    },
+    "type=top": {
+      "model": "nayzasdungeons:block/smooth_wraithstone_slabs_top"
+    }
+  }
+
+}

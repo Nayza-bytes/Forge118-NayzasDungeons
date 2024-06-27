@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "nayzasdungeons:wraithstone"
+  },
+  "result": "nayzasdungeons:smooth_wraithstone",
+  "count": 1
+}

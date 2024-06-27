@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nayzasdungeons:block/wraithstone_brick_slabs"
+    },
+    "type=double": {
+      "model": "nayzasdungeons:block/wraithstone_brick"
+    },
+    "type=top": {
+      "model": "nayzasdungeons:block/wraithstone_brick_slabs_top"
+    }
+  }
+
+}

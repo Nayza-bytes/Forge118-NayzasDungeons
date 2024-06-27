@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "##",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "nayzasdungeons:wraithstone_brick"
+    }
+  },
+  "result": {
+    "item": "nayzasdungeons:wraithstone_brick_stairs",
+    "count": 4
+  }
+}

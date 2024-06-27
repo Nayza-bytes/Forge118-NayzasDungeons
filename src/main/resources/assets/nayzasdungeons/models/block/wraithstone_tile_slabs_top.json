@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "nayzasdungeons:block/wraithstone_tiles",
+    "top": "nayzasdungeons:block/wraithstone_tiles",
+    "side": "nayzasdungeons:block/wraithstone_tiles"
+  }
+}
