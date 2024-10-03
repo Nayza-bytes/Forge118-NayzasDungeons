@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "nayzasdungeons:amberine_stone"
+  },
+  "result": "nayzasdungeons:chiseled_amberine",
+  "count": 1
+}

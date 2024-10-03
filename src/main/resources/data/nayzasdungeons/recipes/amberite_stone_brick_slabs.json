@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "nayzasdungeons:amberine_stone"
+    }
+  },
+  "result": {
+    "item": "nayzasdungeons:amberine_stone_brick_slabs",
+    "count": 4
+  }
+}

@@ -11,6 +11,14 @@
   "block.nayzasdungeons.wraithstone_tile": "Wraithstone Tile",
   "block.nayzasdungeons.wraithstone_tile_stairs": "Wraithstone Tile Stairs",
   "block.nayzasdungeons.wraithstone_tile_slabs": "Wraithstone Tile Slabs",
+  "block.nayzasdungeons.amberine_stone": "Amberine Stone",
+  "block.nayzasdungeons.amberine_stone_brick": "Amberine Stone Brick",
+  "block.nayzasdungeons.chiseled_amberine": "Chiseled Amberine",
+  "block.nayzasdungeons.amberine_stone_brick_stairs": "Amberine Stone Brick Stairs",
+  "block.nayzasdungeons.amberine_stone_brick_slabs": "Amberine Stone Brick Slabs",
+  "block.nayzasdungeons.phantomstone": "Phantomstone",
+
+  "item.nayzasdungeons.phantomsight_goggles": "Phantomsight Goggles",
 
   "itemGroup.nayzas_dungeons": "Nayza's Dungeons"
 }

@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nayza.nayzasdungeons.NayzasDungeons;
+import net.nayza.nayzasdungeons.block.custom.PhantomStoneBlock;
 import net.nayza.nayzasdungeons.item.ModItems;
 import net.nayza.nayzasdungeons.util.ModCreativeModTab;
 
@@ -33,10 +34,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> WRAITHSTONE_TILE_STAIRS = registerBlock("wraithstone_tile_stairs", () -> new StairBlock(() -> ModBlocks.WRAITHSTONE_TILE.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE_STAIRS).sound(SoundType.STONE)), ModCreativeModTab.NAYZAS_DUNGEONS);
     public static final RegistryObject<Block> WRAITHSTONE_TILE_SLABS = registerBlock("wraithstone_tile_slabs", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE_SLAB).sound(SoundType.STONE)), ModCreativeModTab.NAYZAS_DUNGEONS);
     public static final RegistryObject<Block> CHISELED_WRAITHSTONE = registerBlock("chiseled_wraithstone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.2f, 6f).requiresCorrectToolForDrops().sound(SoundType.STONE)), ModCreativeModTab.NAYZAS_DUNGEONS);
-
-
-
-
+    public static final RegistryObject<Block> AMBERINE_STONE = registerBlock("amberine_stone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.5f, 8f).requiresCorrectToolForDrops().sound(SoundType.STONE)), ModCreativeModTab.NAYZAS_DUNGEONS);
+    public static final RegistryObject<Block> AMBERINE_STONE_BRICK = registerBlock("amberine_stone_brick", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.5f, 8f).requiresCorrectToolForDrops().sound(SoundType.STONE)), ModCreativeModTab.NAYZAS_DUNGEONS);
+    public static final RegistryObject<Block> AMBERINE_STONE_BRICK_STAIRS = registerBlock("amberine_stone_brick_stairs", () -> new StairBlock(() -> ModBlocks.AMBERINE_STONE.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE_STAIRS).sound(SoundType.STONE)), ModCreativeModTab.NAYZAS_DUNGEONS);
+    public static final RegistryObject<Block> AMBERINE_STONE_BRICK_SLABS = registerBlock("amberine_stone_brick_slabs", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE_SLAB).sound(SoundType.STONE)), ModCreativeModTab.NAYZAS_DUNGEONS);
+    public static final RegistryObject<Block> CHISELED_AMBERINE = registerBlock("chiseled_amberine", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2.5f, 8f).requiresCorrectToolForDrops().sound(SoundType.STONE)), ModCreativeModTab.NAYZAS_DUNGEONS);
+    public static final RegistryObject<Block> PHANTOMSTONE = registerBlock("phantomstone", () -> new PhantomStoneBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3.4f, 15f).requiresCorrectToolForDrops().sound(SoundType.SOUL_SOIL)), ModCreativeModTab.NAYZAS_DUNGEONS);
 
 
     public static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

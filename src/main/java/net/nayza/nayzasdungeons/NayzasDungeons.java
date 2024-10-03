@@ -15,6 +15,8 @@ import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.nayza.nayzasdungeons.block.ModBlocks;
 import net.nayza.nayzasdungeons.item.ModItems;
+//import net.nayza.nayzasdungeons.world.structure.ModStructures;
+import net.nayza.nayzasdungeons.world.structure.ModStructures;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -27,15 +29,16 @@ import static net.nayza.nayzasdungeons.NayzasDungeons.MOD_ID;
 public class NayzasDungeons
 {
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "nayzasdungeons";
-    private static final String VERSION = "InDev-26062024";
+    public static final String VERSION = "InDev-28062024";
 
     public NayzasDungeons() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModBlocks.register(eventBus);
         ModItems.register(eventBus);
+        ModStructures.register(eventBus);
 
         eventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);

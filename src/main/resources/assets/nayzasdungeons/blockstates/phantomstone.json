@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "has_phantomsight_goggles_effect=false": { "model": "nayzasdungeons:block/phantomstone" },
+    "has_phantomsight_goggles_effect=true": { "model": "nayzasdungeons:block/phantomstone_transluscent" }
+  }
+}

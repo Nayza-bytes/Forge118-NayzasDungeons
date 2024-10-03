@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "nayzasdungeons:amberine_stone"
+    }
+  },
+  "result": {
+    "item": "nayzasdungeons:chiseled_amberine",
+    "count": 1
+  }
+}

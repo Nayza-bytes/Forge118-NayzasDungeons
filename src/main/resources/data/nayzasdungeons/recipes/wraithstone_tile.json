@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "##"
+    "## "
   ],
   "key": {
     "#": {
@@ -9,7 +9,7 @@
     }
   },
   "result": {
-    "item": "nayzasdungeons:chiseled_tile",
+    "item": "nayzasdungeons:wraithstone_tile",
     "count": 4
   }
 }

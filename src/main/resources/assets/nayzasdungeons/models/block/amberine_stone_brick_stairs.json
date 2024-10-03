@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "nayzasdungeons:block/amberinestone_brick",
+    "top": "nayzasdungeons:block/amberinestone_brick",
+    "side": "nayzasdungeons:block/amberinestone_brick"
+  }
+}

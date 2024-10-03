@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nayzasdungeons:block/amberine_stone_brick_slabs"
+    },
+    "type=double": {
+      "model": "nayzasdungeons:block/amberine_stone_brick"
+    },
+    "type=top": {
+      "model": "nayzasdungeons:block/amberine_stone_brick_slabs_top"
+    }
+  }
+
+}

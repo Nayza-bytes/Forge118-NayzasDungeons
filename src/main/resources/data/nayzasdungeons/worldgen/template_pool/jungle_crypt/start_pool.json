@@ -1,0 +1,66 @@
+{
+  "name": "nayzasdungeons:jungle_crypt/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      // How likely out of all the element for this one to be chosen.
+      "weight": 25,
+      "element": {
+        "location": "nayzasdungeons:structures/jungle_crypt",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      // How likely out of all the element for this one to be chosen.
+      "weight": 35,
+      "element": {
+        "location": "nayzasdungeons:structures/junglecrypt_c1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      // How likely out of all the element for this one to be chosen.
+      "weight": 55,
+      "element": {
+        "location": "nayzasdungeons:structures/junglecrypt_c2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      // How likely out of all the element for this one to be chosen.
+      "weight": 25,
+      "element": {
+        "location": "nayzasdungeons:structures/junglecrypt_c3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      // How likely out of all the element for this one to be chosen.
+      "weight": 15,
+      "element": {
+        "location": "nayzasdungeons:structures/junglecrypt_c4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      // How likely out of all the element for this one to be chosen.
+      "weight": 25,
+      "element": {
+        "location": "nayzasdungeons:structures/junglecrypt_c5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
